@@ -111,7 +111,7 @@ namespace MyBlogAngularCore.API.Models
                     .HasConstraintName("FK_Comment_Article");
             });
 
-            OnModelCreatingPartial(modelBuilder);
+             OnModelCreatingPartial(modelBuilder);
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
